@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Millie Bobby Brown|WORKS</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="works.html">Works</a>
+        <a href="influence.html">Influence</a>
+      </nav>
+    </header>
+
+    <!-- ================= WORKS CENTER ================= -->
+    <main class="works-center">
+      <!-- title -->
+      <section class="works-top">
+        <h2 class="works-title">Works</h2>
+
+        <!-- ⭐ title-main -->
+        <h3 class="works-current-title" id="worksCurrentTitle">Enola Holmes</h3>
+
+        <!-- imgs banner -->
+        <div class="works-track">
+          <div
+            class="works-item"
+            data-title="Enola Holmes"
+            data-desc="A mystery film series where she also served as a producer."
+          >
+            <img src="./images/works-01.png" alt="Enola Holmes" />
+          </div>
+
+          <div
+            class="works-item"
+            data-title="Godzilla vs. Kong"
+            data-desc="A Hollywood blockbuster expanding her global presence."
+          >
+            <img src="./images/works-02.png" alt="Godzilla vs. Kong" />
+          </div>
+
+          <div
+            class="works-item active"
+            data-title="Stranger Things"
+            data-desc="A Netflix original series where Millie Bobby Brown plays Eleven, a girl with extraordinary powers. This role brought her worldwide fame and became a cultural phenomenon."
+          >
+            <img src="./images/works-03.jpg" alt="Stranger Things" />
+          </div>
+
+          <div
+            class="works-item"
+            data-title="The Electric State"
+            data-desc="A sci-fi adventure set in a retro-futuristic world."
+          >
+            <img src="./images/works-04.png" alt="The Electric State" />
+          </div>
+
+          <div
+            class="works-item"
+            data-title="Intruders"
+            data-desc="An early thriller role showing emotional depth."
+          >
+            <img src="./images/works-05.png" alt="Intruders" />
+          </div>
+        </div>
+
+        <!-- ⭐ intro-main -->
+        <p class="works-current-desc" id="worksCurrentDesc">
+          A mystery film series where she also served as a producer.
+        </p>
+      </section>
+    </main>
+
+    <!-- ================= SLIDER SECTION ================= -->
+    <section class="slider-section">
+      <button class="arrow left" onclick="prevSlide()">&#8592;</button>
+
+      <div class="slider">
+        <a href="profile.html">
+          <div class="slide">
+            <img src="images/profile01.png" alt="Profile image" />
+            <h3>Profile</h3>
+            <p>Millie Bobby Brown is a British actress known worldwide.</p>
+          </div>
+        </a>
+        <a href="works.html">
+          <div class="slide active">
+            <img src="images/profile02.png" alt="Works image" />
+            <h3>Works</h3>
+            <p>She starred in Stranger Things and Enola Holmes.</p>
+          </div>
+        </a>
+
+        <a href="influence.html">
+          <div class="slide">
+            <img src="images/profile03.png" alt="Influence image" />
+            <h3>Influence</h3>
+            <p>She inspires young people with confidence and courage.</p>
+          </div>
+        </a>
+      </div>
+
+      <button class="arrow right" onclick="nextSlide()">&#8594;</button>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="works.html">Works</a>
+        <a href="influence.html">Influence</a>
+      </div>
+      <p class="copyright">© 2026 Millie Bobby Brown</p>
+    </footer>
+
+    <script src="js/slider.js"></script>
+    <script src="js/works.js"></script>
+  </body>
+</html>

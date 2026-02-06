@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Millie Bobby Brown|PROFILE</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Header / Navigation -->
+    <header class="header">
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="works.html">Works</a>
+        <a href="influence.html">Influence</a>
+      </nav>
+    </header>
+
+    <section class="profile-main dark">
+      <!-- left：Profile intro -->
+      <div class="profile-text">
+        <h1 class="profile-title">Profile</h1>
+        <p class="profile-subtitle">
+          A brief introduction to Millie Bobby Brown
+        </p>
+
+        <h3 class="section-title">Basic Information</h3>
+
+        <div class="info-cards">
+          <div class="info-card">Born 2004</div>
+          <div class="info-card">From UK</div>
+          <div class="info-card">Role Actress</div>
+          <div class="info-card">Also Producer</div>
+        </div>
+
+        <h3 class="section-title">Background</h3>
+
+        <p class="profile-desc">
+          Millie Bobby Brown was born in Spain and raised in the UK and the US.
+          She began acting at a young age and gradually built her career through
+          television and film roles.
+        </p>
+
+        <p class="profile-desc">
+          Her early success shows both talent and determination.
+        </p>
+      </div>
+
+      <!-- right：img -->
+      <div class="profile-photo-wrapper">
+        <div class="photo-frame">
+          <img src="images/bobbie-01.png" class="active" alt="Bobbie 1" />
+          <img src="images/bobbie-02.png" alt="Bobbie 2" />
+          <img src="images/bobbie-03.png" alt="Bobbie 3" />
+          <img src="images/bobbie-04.png" alt="Bobbie 4" />
+          <img src="images/bobbie-05.png" alt="Bobbie 5" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Slider Section -->
+    <section class="slider-section">
+      <button class="arrow left" onclick="prevSlide()">&#8592;</button>
+
+      <div class="slider">
+        <a href="profile.html">
+          <div class="slide">
+            <img src="images/profile01.png" alt="Profile image" />
+            <h3>Profile</h3>
+            <p>Millie Bobby Brown is a British actress known worldwide.</p>
+          </div>
+        </a>
+        <a href="works.html">
+          <div class="slide active">
+            <img src="images/profile02.png" alt="Works image" />
+            <h3>Works</h3>
+            <p>She starred in Stranger Things and Enola Holmes.</p>
+          </div>
+        </a>
+
+        <a href="influence.html">
+          <div class="slide">
+            <img src="images/profile03.png" alt="Influence image" />
+            <h3>Influence</h3>
+            <p>She inspires young people with confidence and courage.</p>
+          </div>
+        </a>
+      </div>
+
+      <button class="arrow right" onclick="nextSlide()">&#8594;</button>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="works.html">Works</a>
+        <a href="influence.html">Influence</a>
+      </div>
+      <p class="copyright">© 2026 Millie Bobby Brown</p>
+    </footer>
+
+    <script src="js/slider.js"></script>
+  </body>
+</html>

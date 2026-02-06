@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Millie Bobby Brown|HOME</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Header / Navigation -->
+    <header class="header">
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="works.html">Works</a>
+        <a href="influence.html">Influence</a>
+      </nav>
+    </header>
+
+    <!-- Main Visual -->
+    <section class="main-visual">
+      <h1>Millie Bobby Brown</h1>
+      <p>Actress · Producer · Influencer</p>
+      <img
+        src="./images/home-main-millie.png"
+        alt="Millie Bobby Brown"
+        class="fade-image"
+      />
+    </section>
+
+    <!-- Slider Section -->
+    <section class="slider-section">
+      <button class="arrow left" onclick="prevSlide()">&#8592;</button>
+
+      <div class="slider">
+        <a href="profile.html">
+          <div class="slide">
+            <img src="images/profile01.png" alt="Profile image" />
+            <h3>Profile</h3>
+            <p>Millie Bobby Brown is a British actress known worldwide.</p>
+          </div>
+        </a>
+        <a href="works.html">
+          <div class="slide active">
+            <img src="images/profile02.png" alt="Works image" />
+            <h3>Works</h3>
+            <p>She starred in Stranger Things and Enola Holmes.</p>
+          </div>
+        </a>
+
+        <a href="influence.html">
+          <div class="slide">
+            <img src="images/profile03.png" alt="Influence image" />
+            <h3>Influence</h3>
+            <p>She inspires young people with confidence and courage.</p>
+          </div>
+        </a>
+      </div>
+
+      <button class="arrow right" onclick="nextSlide()">&#8594;</button>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="works.html">Works</a>
+        <a href="influence.html">Influence</a>
+      </div>
+      <p class="copyright">© 2026 Millie Bobby Brown</p>
+    </footer>
+
+    <script src="js/slider.js"></script>
+  </body>
+</html>
